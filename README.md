@@ -48,4 +48,4 @@ For both puzzles, we compute:
    - Data and graphs are saved to an Excel file with separate sheets for each puzzle.
 
 **How to run**
-python hash_distribution.py
+- python hash_distribution.py
