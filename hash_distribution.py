@@ -1,9 +1,12 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import io
-from itertools import product
-import xlsxwriter
+# Importing necessary libraries
+
+import numpy as np  # For numerical computations, including arrays and statistical calculations
+import pandas as pd  # For handling and analyzing tabular data
+import matplotlib.pyplot as plt  # For creating plots and visualizations
+import io  # For in-memory file handling, such as saving images or data temporarily
+from itertools import product  # For generating Cartesian products of iterables, used here for all possible combinations
+import xlsxwriter  # For creating and writing to Excel files
+
 
 # Function to generate hash distribution based on all possible combinations
 def generate_hash_distribution(sub_puzzles, bits):
